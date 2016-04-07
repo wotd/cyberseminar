@@ -9,6 +9,6 @@ It contains 4 puppet agents:
  - ulamp (ubuntu)
  - clamp (centos)
  - db (centos)
- 
- and one puppet master:
+
+and one puppet master:
   - puppet (ubuntu) - puppet / puppetdb server.
