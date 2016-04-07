@@ -17,7 +17,7 @@ Vagrant.configure(2) do |config|
   end
 
   config.vm.define "clamp" do |clamp|
-    clamp.vm.box = "centos/7"
+    clamp.vm.box = "bento/centos-7.1"
     ENV["VAGRANT_DETECTED_OS"] = ENV["VAGRANT_DETECTED_OS"].to_s + " cygwin"
     clamp.vm.hostname = "clamp"
     clamp.vm.network "private_network", ip: "192.168.50.51"
@@ -26,7 +26,7 @@ Vagrant.configure(2) do |config|
   end
 
   config.vm.define "db" do |db|
-    db.vm.box = "centos/7"
+    db.vm.box = "bento/centos-7.1"
     ENV["VAGRANT_DETECTED_OS"] = ENV["VAGRANT_DETECTED_OS"].to_s + " cygwin"
     db.vm.hostname = "db"
     db.vm.network "private_network", ip: "192.168.50.4"
