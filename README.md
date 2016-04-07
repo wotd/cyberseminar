@@ -1,5 +1,5 @@
-# vg-puppet
-Vagrant files for installation and configuration puppet lab
+# Source files for Cyberseminar
+Vagrant files for installation and configuration puppet lab. Contains example of simple LAMP module.
 
 Usage: put files in directory and just use vagrant up command :)
 
